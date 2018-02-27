@@ -1,0 +1,48 @@
+
+/* 
+    Created on : Feb 26, 2018, 12:45:04 PM
+    Author     : sahandsabour
+*/
+
+p {
+    color:white;
+    background-color: black;
+    font-weight: 700; /*only from 100-900*/
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;/* puts the whole text in one line!*/
+}
+
+#content{
+    color: green;
+    background-color: red;
+    font-size: 20px;
+    font-variant:small-caps;
+    text-align: center;
+    text-decoration: blink; /* most browsers ignore this*/
+    text-shadow: 4px 4px 4px white;
+    word-spacing: 5px;
+}
+
+.example{
+    color:red;
+    background-color: green;
+    font-size: x-large;
+    font-style: italic;
+    vertical-align:bottom;
+    text-decoration: overline underline;
+    
+    
+}
+
+#first .second strong{
+    color:pink;
+    background-color:grey;
+    font-size:200%;
+    font-family: fantasy;
+    vertical-align:baseline;
+    text-decoration: line-through; 
+    text-indent: 50px; /* this is for space before starting the first line*/
+    letter-spacing: 4px; 
+   
+}
