@@ -1,9 +1,24 @@
-var x = document.getElementById("Location");
-
-function getLocation(){
-    navigator.geolocation.getCurrentPosition(showPosition);
+function show() {
+    alert("Hi there");
 }
 
-function showPosition(position){
-    x.innerHTML= "latitude = "+ position.coords.latitude+ " longtitude = "+ position.coords.longitude;
+function sayHello(){
+    var x= document.getElementById("Location");
+    x.innerHTML="hello";
 }
+
+function getLocation() {
+   var x= document.getElementById("Location");
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var x= document.getElementById("Location");
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+
