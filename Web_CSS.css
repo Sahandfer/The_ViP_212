@@ -4,6 +4,12 @@
     Author     : sahandsabour
 */
 
+body{
+    background-color: aqua;
+    background-image:url("https://www.creativecowboyfilms.com/uploads/ckeditor/W1siZiIsIjIwMTYvMDEvMDYvMjFfMjdfMzRfNDI4X2Jsb2dfOS5qcGciXSxbInAiLCJ0aHVtYiIsIjY0MHg2NDA%2BIl1d/blog_9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
 p {
     color:white;
     background-color: black;
@@ -11,6 +17,10 @@ p {
     text-align: center;
     text-transform: capitalize;
     white-space: nowrap;/* puts the whole text in one line!*/
+    padding: 10px;
+    border: 5px solid pink;
+    border-style:ridge;
+    background-repeat: inherit;
 }
 
 #content{
@@ -22,6 +32,9 @@ p {
     text-decoration: blink; /* most browsers ignore this*/
     text-shadow: 4px 4px 4px white;
     word-spacing: 5px;
+    border:5px solid yellow;
+    padding=5px;
+    background-image:url("https://www.creativecowboyfilms.com/uploads/ckeditor/W1siZiIsIjIwMTYvMDEvMDYvMjFfMjdfMzRfNDI4X2Jsb2dfOS5qcGciXSxbInAiLCJ0aHVtYiIsIjY0MHg2NDA%2BIl1d/blog_9.jpg");
 }
 
 .example{
@@ -31,6 +44,7 @@ p {
     font-style: italic;
     vertical-align:bottom;
     text-decoration: overline underline;
+    display: block
     
     
 }
@@ -43,6 +57,62 @@ p {
     vertical-align:baseline;
     text-decoration: line-through; 
     text-indent: 50px; /* this is for space before starting the first line*/
-    letter-spacing: 3px; 
+    letter-spacing: 4px; 
+    display: inline;
    
 }
+
+#list{
+    color:white;
+    font-size:15px;
+    background-color:deeppink;
+    border: 5px solid gray;
+    font-family:courier;
+    list-style-type:upper-latin;
+    list-style-position: inside;
+}
+
+#table{
+    color:orange;
+    text-align: center;
+    background-color:aquamarine;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: auto;
+}
+
+
+#linkcity{
+    background-color:white;
+    color:white;
+
+}
+
+
+a:link{
+    color:palevioletred;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color:red;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+   color:white; 
+}
+
+
+
+
+
+
+
+
+
+
