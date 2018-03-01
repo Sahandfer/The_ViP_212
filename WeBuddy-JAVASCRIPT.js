@@ -81,7 +81,7 @@ var R = 6371; // Radius of the earth in km
     ; 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var distanceWent = R * c * 1000; // Distance in meters.
-    totalDistance += distanceWent;
+    totalDistance = distanceWent;
     mapIndicate.innerHTML="Distance walked: "+totalDistance +" meters!";
 }
 
